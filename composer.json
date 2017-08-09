@@ -1,0 +1,44 @@
+{
+  "name": "laravel-junkies/theme",
+  "description": "A Laravel package for multiple theme handling",
+  "keywords": [
+    "laravel",
+    "framework",
+    "theme",
+    "TobyMaxham",
+    "Laravel Junkies",
+    "LaraJunkie"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tobias Maxham",
+      "email": "git2017@maxham.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.9",
+    "illuminate/console": "~5.3.28|~5.4.0",
+    "illuminate/contracts": "~5.3.28|~5.4.0",
+    "illuminate/view": "~5.3.28|~5.4.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^0.9.4",
+    "phpunit/phpunit": "^4.8|^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaraJunkie\\Theme\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LaraJunkie\\Tests\\Theme\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
