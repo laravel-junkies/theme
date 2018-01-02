@@ -39,5 +39,15 @@
     "preferred-install": "dist"
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaraJunkie\\Theme\\ThemeServiceprovider"
+      ],
+      "aliases": {
+        "Theme": "LaraJunkie\\Theme\\Facades\\LaraThemeFacade"
+      }
+    }
+  }
 }
