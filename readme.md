@@ -13,12 +13,12 @@ With this package you can easily create customized themes for Laravel.
 ## Installation
 
 ```
-composer install laravel-junkies/theme
+composer require laravel-junkies/theme
 ```
 
 ## Usage
 
-The following code will looking for resources within the folder ``resources/themes/{themeName}`
+The following code will looking for resources within the folder `resources/themes/{themeName}`
 
 ```php
 Theme::setup('themeName');
