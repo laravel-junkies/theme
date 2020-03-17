@@ -12,18 +12,18 @@
   "authors": [
     {
       "name": "Tobias Maxham",
-      "email": "git2017@maxham.de"
+      "email": "git2020@maxham.de"
     }
   ],
   "require": {
-    "php": ">=5.5.9",
-    "illuminate/console": "~5.3.28|~5.4.0|~5.5.0",
-    "illuminate/contracts": "~5.3.28|~5.4.0|~5.5.0",
-    "illuminate/view": "~5.3.28|~5.4.0|~5.5.0"
+    "php": "^7.2.5",
+    "illuminate/console": "^7.0",
+    "illuminate/contracts": "^7.0",
+    "illuminate/view": "^7.0"
   },
   "require-dev": {
-    "mockery/mockery": "^0.9.4",
-    "phpunit/phpunit": "^4.8|^5.0"
+    "mockery/mockery": "^1.3.1",
+    "phpunit/phpunit": "^8.4|^9.0"
   },
   "autoload": {
     "psr-4": {
